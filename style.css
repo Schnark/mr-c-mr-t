@@ -1,0 +1,23 @@
+html {
+	font-family: sans-serif;
+}
+
+.button {
+	display: inline-block;
+	padding: 0.5em;
+	color: blue;
+	border: solid;
+	border-radius: 0.5em;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #ffd;
+}
+
+#drawing {
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 2px;
+	max-width: 100%;
+}
